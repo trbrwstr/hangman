@@ -1,0 +1,60 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hangman</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center">Ghibli Films</h1>
+            <h3>Guess the title</h3>
+            <hr class="my-4">
+            <h5>Click any letter to start</h5>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md">
+                <div class="panel">
+                    <div class="panel-body">
+                    <h3>Title</h3>
+                    <h3 id="blank">_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-body">
+                <h3>Wrong Guesses:
+                    <span id="guesses"></span>
+                </h3>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-body">
+                <h3>Guesses left:
+                    <span id="guesses-left">10</span>
+                </h3>
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-body">
+                <h3>Wins:
+                    <span id="winCount">0</span>
+                </h3>
+                <h3>Losses:
+                    <span id="lossCount">0</span>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

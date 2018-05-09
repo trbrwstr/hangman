@@ -1,0 +1,11 @@
+body {
+    background-image: url(https://cesran.org/wp-content/uploads/2017/01/spirited-away.jpg);
+}
+
+div {
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    color: #992025;
+    background: #13121A;
+    margin: auto;
+}
